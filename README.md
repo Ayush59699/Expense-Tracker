@@ -1,11 +1,6 @@
 # Expense-Tracker
 Using Django to make a web based expense tracker
 
-### Table of Contents
-- [Main Features](#main-features)
-- [Requirements](#requirements-for-running-project)
-- [Steps for running project](#steps-for-running-project)
-- [Generate dummy data](#generate-dummy-data)
 
 ### Main Features
 - [x] Add Expenses and Incomes by different catgeory and source.
@@ -15,16 +10,14 @@ Using Django to make a web based expense tracker
 - [x] Users can import incomes and expenses from a csv and excel.
 - [x] Users can also search expenses and incomes present in their account
 
-
 ### Requirements for running project 
-- [python > 3.5.x](https://www.python.org/downloads/)
-- [Virtualenv](https://virtualenv.pypa.io/en/latest/installation.html)
-- [PostgreSQL](https://www.postgresql.org/download/)
-- [Gmail account with less secure apps on](https://www.google.com/intl/en-GB/gmail/about/#)
-- [Weasy Print](https://weasyprint.readthedocs.io/en/latest/)
-- [Cloudinary account](https://cloudinary.com/)
-- [Sentry account](https://sentry.io/welcome/)
-
+- [python > 3.5.x]
+- [Virtualenv]
+- [PostgreSQL]
+- [Gmail account with less secure apps on]
+- [Weasy Print]
+- [Cloudinary account]
+- [Sentry account]
 
 ### Steps for running project
 ```bash
@@ -62,4 +55,4 @@ source .env
 python generate_data.py
 ```
 
-##### If all commands run successfully website will be running on PORT 8000 on localhost [http://localhost:8000](http://localhost:8000)
+##### will run on PORT 8000 
